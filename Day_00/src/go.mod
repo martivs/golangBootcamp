@@ -1,3 +1,3 @@
-module github.com/martivs/golangBootcamp/tree/develop/Day_00/src
+module Day_00
 
 go 1.22.2
