@@ -125,20 +125,9 @@ func (s *Stat) CalcSD() {
 }
 
 /*
-Check that project only requires running `go build` to produce an executable
-Check that submission includes *go.mod* and *go.sum* (in case external dependencies are used)
-Check that application works when being passed a sequence of integer numbers, separated by newlines
-Check that results are correct both when input is sorted and when it isn't
-Check that cases like an empty string with newline, value out of [-100000, 100000] bounds,
-characters don't crash the program
-Check that application can be run in such way it prints only a specified subset of metrics
-Check that mean is calculated correctly for both odd and even number of inputs
 Check that the output for mean is rounded to two decimal points
-Check that median is calculated correctly for both odd and even number of inputs
 Check that the median output is rounded to two decimal points
-Check that mode is always equal to the most frequent number in the input
 Check that if there are multiple most frequent numbers, then mode is equal to the smallest one among those
-Check that SD calculation works even if mean calculation is disabled
 Check that SD is calculated correctly, being equal to either regular SD or a population SD
 Check that the SD output is rounded to two decimal points
 */
