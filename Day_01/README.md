@@ -8,6 +8,8 @@
 
 <h3 id="ex00">Exercise 00: Reading</h3>
 
+#### XML:
+
 ```xml
 <recipes>
     <cake>
@@ -62,8 +64,7 @@
     <!-- Here can be more cakes  -->
 </recipes>
 ```
-
-<h3>XML</h3>
+#### JSON:
 
 ```json
 {
@@ -154,7 +155,7 @@ CHANGED unit for ingredient "Flour" for cake  "Red Velvet Strawberry Cake" - "mu
 CHANGED unit count for ingredient "Strawberries" for cake  "Red Velvet Strawberry Cake" - "8" instead of "7"
 REMOVED unit "pieces" for ingredient "Cinnamon" for cake  "Red Velvet Strawberry Cake"
 ```
-<h3 id="ex02">Exercise 02: Afterparty</h3>
+<h3 id="ex02">Exercise 02: Dumps</h3>
 
 
 Your program should take two filesystem dumps.
