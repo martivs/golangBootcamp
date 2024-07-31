@@ -1,4 +1,4 @@
-![dayp00](misc/images/stseb.jpeg)
+![dayp00](misc/images/_b867ed71-6363-40fd-b11f-856360d6d9f9.jpeg)
 ---
 <h3 id="ex00">Exercise 00: Anscombe</h3>
 
