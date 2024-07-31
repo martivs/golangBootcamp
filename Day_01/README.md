@@ -1,14 +1,14 @@
 ![dayp01](misc/images/_6ffb210b-602d-44f2-918d-1df3942f2222.jpeg)
 
-## Contents
+# Contents
 
 1 [Exercise 00: Reading](#ex00) \
 2 [Exercise 01: Assessing Damage](#ex01)\
 3 [Exercise 02: Dumps](#ex02)
 
-<h3 id="ex00">Exercise 00: Reading</h3>
+<h2 id="ex00">Exercise 00: Reading</h2>
 
-#### XML:
+### XML:
 
 ```xml
 <recipes>
@@ -64,7 +64,7 @@
     <!-- Here can be more cakes  -->
 </recipes>
 ```
-#### JSON:
+### JSON:
 
 ```json
 {
@@ -124,7 +124,7 @@ Think of which kinds of objects are there in these databases and how they can be
 
 Make the code print JSON version of the database when it's reading from XML and vice versa. Both XML and JSON fields should be indented with 4 spaces ("pretty-printing").
 
-<h3 id="ex01">Exercise 01: Assessing Damage</h3>
+<h2 id="ex01">Exercise 01: Assessing Damage</h2>
 
 You've seen that the new database has modified versions of the same recipes, meaning there are several possible cases:
 
@@ -155,7 +155,7 @@ CHANGED unit for ingredient "Flour" for cake  "Red Velvet Strawberry Cake" - "mu
 CHANGED unit count for ingredient "Strawberries" for cake  "Red Velvet Strawberry Cake" - "8" instead of "7"
 REMOVED unit "pieces" for ingredient "Cinnamon" for cake  "Red Velvet Strawberry Cake"
 ```
-<h3 id="ex02">Exercise 02: Dumps</h3>
+<h2 id="ex02">Exercise 02: Dumps</h2>
 
 
 Your program should take two filesystem dumps.
@@ -180,4 +180,3 @@ REMOVED /var/log/browser_history.txt
 ```
 
 There is one issue though - the files can be really big, so you can assume both of them won't fit into RAM on the same time. There are two possible ways to overcome this - either to compress the file in memory somehow, or just read one of them and then avoid reading the other.
-
