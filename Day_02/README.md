@@ -1,4 +1,4 @@
-![dayp01](misc/images/_a8f36fc3-8f2e-4e2e-848b-a42ebae5f9d3.jpeg)
+![dayp02](misc/images/_a8f36fc3-8f2e-4e2e-848b-a42ebae5f9d3.jpeg)
 
 # Contents
 
